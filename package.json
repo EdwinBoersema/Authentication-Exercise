@@ -1,0 +1,28 @@
+{
+  "name": "authentication-exercise",
+  "version": "1.0.0",
+  "description": "Simple exercise to learn how authentication works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwinBoersema/Authentication-Exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwinBoersema/Authentication-Exercise/issues"
+  },
+  "homepage": "https://github.com/EdwinBoersema/Authentication-Exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
